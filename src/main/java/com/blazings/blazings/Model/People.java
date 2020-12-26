@@ -1,6 +1,6 @@
 package com.blazings.blazings.Model;
 
-public class Member {
+public class People {
     String name;
     /**
      * 今天获得的链分
