@@ -31,17 +31,15 @@ public class BlazingsApplication implements CommandLineRunner {
         Double todayScore = 0.0;
 
         for (int i = 0; i < totalDay; i++) {
-
             for (int j = 0; j < fewPeople; j++) {
                 People people = new People();
                 people.setJoinDay(i);
                 people.setName(String.valueOf(i));
                 people.setTodayInvestMoney(1000.0);
-                people.set
+//                people.setTotalInvestMoney(people.getTodayInvestMoney()+1000.0);
 
 //                members.add(new Member());
             }
-            fewPeople += 5;
         }
 
         profitTotal.setMember(todayScore*0.5);
