@@ -19,7 +19,6 @@ public class BlazingsApplication implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         Profit profitTotal = new Profit();
-        Profit profitToday = new Profit();
         int totalDay = 10;
         int fewPeople = 5;
         List<People> peopleList = new ArrayList<>();
