@@ -44,7 +44,7 @@ public class BlazingsApplication implements CommandLineRunner {
                         profitToday.getNode()/fewPeople);
                 people.setTotalScore(people.getTodayScore());
                 people.setTodayInvestMoney(toDayInvertMoney);
-                people.setTotalInvestMoney(0.0D);
+                people.setTotalInvestMoney(toDayInvertMoney);
                 people.setTotalValueMoney(0.0D);
             }
             if (profitTotal.getMember()!=null){
